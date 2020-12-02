@@ -1,28 +1,42 @@
-.App {
+.App-header {
+  position: relative;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-p {
+.motto {
+  text-align: center;
   font-size: 200px;
+  margin-top: 50px;
+  color: gray;
+  font-family: 'MaestroSignature';
+  position: absolute;
+  top: -30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.App-header {
+.about {
+  font-family: 'Bavro-Regular';
+  font-size: 20px;
+  width: 775px;
+  letter-spacing: 2px;
+  color: #fff;
+
+}
+hr {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  width: 775px;
+}
+
+.about-div {
   background-color: #282c34;
-  font-family: MaestroSignature;
-  min-height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  padding-top: 80px;
+  margin-top: 700px;
 
-.App-link {
-  color: #61dafb;
-}
 
+}
