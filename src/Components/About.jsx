@@ -7,7 +7,7 @@ export default function About() {
       <header className="App-header">
         <p className="motto">Fuck Cash Bail</p>
         <div className="about-div">
-          <hr></hr>
+          <div className="line-div"></div>
           <p className="about">
             The mission of the Emergency Release Fund is to ensure that no trans
             person at risk in New York City jails remains in detention before
