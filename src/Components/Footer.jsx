@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Instagram from '../Graphics/instagram.svg'
+import Facebook from '../Graphics/facebook.svg'
 
 export default function Footer() {
   const today = new Date();
@@ -9,6 +10,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className="footer-links">
             <img src={Instagram}/>
+            <img src={Facebook}/>
         </p>
         <p className="footer-date">
           {" "}
