@@ -1,9 +1,15 @@
 @font-face {
-  font-family: 'MaestroSignature';
-  src: local('MaestroSignature'), url(./Fonts/MaestroSignature.ttf) format('truetype');
+  font-family: "MaestroSignature";
+  src: local("MaestroSignature"),
+    url(./Fonts/MaestroSignature.ttf) format("truetype");
 }
 
 @font-face {
-  font-family: 'Bavro-Regular';
-  src: local('Bavro-Regular'), url(./Fonts/Bavro-Regular.ttf) format('truetype');
+  font-family: "Bavro-Regular";
+  src: local("Bavro-Regular"), url(./Fonts/Bavro-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: local("Raleway"), url(./Fonts/Raleway.ttf) format("truetype");
 }

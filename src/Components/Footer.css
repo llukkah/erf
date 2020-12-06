@@ -5,10 +5,11 @@
   justify-content: center;
 }
 .footer-links {
-    margin-top: 0px;
-    margin-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .footer-date {
+  font-family: "Raleway";
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 30px;

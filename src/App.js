@@ -1,13 +1,12 @@
-import React from 'react';
-import About from "./Components/About.jsx"
-import Footer from "./Components/Footer.jsx"
-import './App.css';
-
+import React from "react";
+import About from "./Components/About.jsx";
+import Footer from "./Components/Footer.jsx";
+import "./App.css";
 
 function App() {
   return (
     <div>
-      <About/>
+      <About />
       <Footer />
     </div>
   );
