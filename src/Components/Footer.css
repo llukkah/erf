@@ -1,18 +1,23 @@
 .footer-div {
   background-color: #282c34;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  align-content: center;
   padding-top: 30px;
 }
-/* //set width to center within the div */
 .footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin-top: 0px;
   margin-bottom: 0px;
 }
 .footer-date {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   font-family: "Raleway";
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-bottom: 0px;
   padding-top: 0px;
   padding-bottom: 30px;
