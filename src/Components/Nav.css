@@ -1,0 +1,10 @@
+.nav {
+    font-family: "Bavro-Regular";
+    font-size: 40px;
+    color: gray;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px #fff solid;
+}
