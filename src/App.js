@@ -1,16 +1,17 @@
 import React from "react";
-import Nav from "./Components/Nav.jsx";
-import About from "./Components/About.jsx";
-import Footer from "./Components/Footer.jsx";
+import { Route } from "react-router-dom";
 import "./App.css";
+import Main from "./Components/Main.jsx"
+
+import Layout from './Components/Layout.jsx'
+// import Donate from  './Components/Donate.jsx'
 
 function App() {
   return (
-    <div>
-      <Nav />
-      <About />
-      <Footer />
-    </div>
+    <Layout>
+      <Main />
+      {/* <Donate /> */}
+    </Layout>
   );
 }
 

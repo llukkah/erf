@@ -10,9 +10,9 @@ export default function Footer() {
     <div>
       <div className="footer-div">
         <div className="footer-links">
-          <img src={Instagram} />
-          <span className="facebook-link">
-            <img src={Facebook} />
+          <img src={Facebook} />
+          <span className="instagram-link">
+            <img src={Instagram} />
           </span>
           <img src={Twitter} />
         </div>

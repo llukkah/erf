@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Nav.css";
 import LogoGradient from "../Graphics/LogoGradient.png";
 
@@ -15,9 +16,9 @@ export default function Nav() {
           </div>
         </div>
         <p>
-          <a href="#" className="donate-link">
-            DONATE
-          </a>
+          <Link to="/donate" className="donate-link">
+            Donate
+          </Link>
         </p>
       </div>
     </div>
