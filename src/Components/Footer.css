@@ -25,3 +25,11 @@
   font-size: 15px;
   letter-spacing: 2px;
 }
+.facebook-link {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.erf-contact-link {
+    color: #fff;
+    text-decoration: none;
+}

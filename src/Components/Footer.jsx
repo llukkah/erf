@@ -11,12 +11,18 @@ export default function Footer() {
       <div className="footer-div">
         <div className="footer-links">
           <img src={Instagram} />
-          <span><img src={Facebook} /></span>
+          <span className="facebook-link">
+            <img src={Facebook} />
+          </span>
           <img src={Twitter} />
         </div>
         <div className="footer-date">
           <p>
-            &copy; EMERGENCY RELEASE FUND {today.getFullYear()}{" "}
+            &copy;{" "}
+            <a href="mailto:someone@yoursite.com" className="erf-contact-link">
+              EMERGENCY RELEASE FUND
+            </a>{" "}
+            {today.getFullYear()}{" "}
           </p>
         </div>
       </div>
