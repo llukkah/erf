@@ -1,33 +1,33 @@
 .nav {
-    font-family: "Bavro-Regular";
-    font-size: 40px;
-    color: gray;
-    letter-spacing: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border-bottom: 2px #fff solid;
+  font-family: "Bavro-Regular";
+  font-size: 40px;
+  color: gray;
+  letter-spacing: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 2px #fff solid;
 }
 .erf-nav-logo {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 .erf-nav-logo p {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
 }
 .logo {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 .logo-image {
-    margin-top: 10px;
-    height: 125px;
+  margin-top: 10px;
+  height: 125px;
 }
 .donate-link {
-    font-family: 'Raleway';
-    color: gray;
-    margin-right: 20px;
-    text-decoration: none;
+  font-family: "Raleway";
+  color: gray;
+  margin-right: 20px;
+  text-decoration: none;
 }
