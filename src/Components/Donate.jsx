@@ -20,18 +20,15 @@ export default function Donate() {
       </p>
       <p>Text bail to (202) 858-1233</p>
       </div>
-      {/* <div className="donate-container"> */}
       <Iframe
         url="https://givebutter.com/embed/c/erf"
         width="450px"
         height="615px"
         className="givebutter"
         display="initial"
-        // position="relative"
         scrolling="no"
         allowpaymentrequest="true"
       />
-      {/* </div> */}
     </div>
   );
 }
