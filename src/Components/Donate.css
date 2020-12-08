@@ -1,7 +1,18 @@
-.donate-p {
-    font-size: 100px;
-    color: white;
-}
 .donate-1 {
     color: white;
+    font-family: 'Raleway';
+    font-size: 20px;
+    width: 600px;
+    height: 350px;
+    background-color: #282c34;
+    margin-top: 150px;
+    padding-left: 200px;
+    padding-right: 20px;
+    margin-right: 100px;
+}
+.donate-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: ; */
 }
