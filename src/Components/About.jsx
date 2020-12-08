@@ -9,7 +9,7 @@ export default function About() {
         <div className="about-div">
           <div className="line-div"></div>
           <p className="about">
-            The mission of the Emergency Release Fund is to ensure that no trans
+            The mission of Emergency Release Fund is to ensure that no trans
             person at risk in New York City jails remains in detention before
             trial. ERF helps families raise money to bail out their loved ones.
           </p>

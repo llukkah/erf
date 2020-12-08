@@ -1,4 +1,5 @@
 import React from "react";
+import Iframe from 'react-iframe'
 import "./Donate.css"
 
 export default function Donate() {
@@ -13,7 +14,17 @@ To donate to Emergency Release Fund:
 
 Text bail to (202) 858-1233</p>
 <p className="donate-1"> To donate with credit card, PayPal, Venmo, ApplePay givebutter.com/erf </p>
-{/* <iframe src="https://givebutter.com/embed/c/erf" width="100%" height="615px" style="max-width: 601px;" name="givebutter" frameborder="0" scrolling="no" seamless allowpaymentrequest></iframe><script src="https://givebutter.com/js/widget.js"></script> */}
+
+<Iframe url="https://givebutter.com/embed/c/erf"
+        width="450px"
+        height="615px"
+        id="myId"
+        className="givebutter"
+        display="initial"
+        position="relative"
+        scrolling="no"
+        allowpaymentrequest="true"/>
+{/*   style="max-width: 601px;" frameborder="0"  seamless ></iframe><script src="https://givebutter.com/js/widget.js"></script> */}
     </div>
   );
 }
