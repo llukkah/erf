@@ -8,7 +8,7 @@ export default function Nav() {
     <div>
       <div className="nav">
         <div className="logo">
-          <img src={LogoGradient} className="logo-image" />
+          <Link to="/"><img src={LogoGradient} className="logo-image" /></Link>
           <div className="erf-nav-logo">
             <p>EMERGENCY</p>
             <p>RELEASE</p>

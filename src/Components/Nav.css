@@ -27,7 +27,8 @@
 }
 .donate-link {
   font-family: "Raleway";
-  color: gray;
+  /* color: #566792; */
+  color: #5b7fa1;
   margin-right: 20px;
   text-decoration: none;
 }
