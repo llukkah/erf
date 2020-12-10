@@ -9,9 +9,12 @@ Library	  Purpose
 React	    User interface rendering framework
 React Iframe    Display embedded GiveButter widget
 React Router	Front End Link and Route components
-React Animations	Homepage Logo and general page animations
+React Animations	Donate page load animations
 
 ### Design
     ## Color Scheme
     ## Wireframes
-    ## Fonts -->
+    ## Fonts 
+        Raleway - Main Website Font & Links
+        Maestro Signature - Motto Font
+        Bavro - ERF Logo & Used anytime 'Emergency Release Fund' is mentioned-->
